@@ -24,3 +24,5 @@ COPY --from=builder /app/target/*jar app.jar
 EXPOSE 8082
 # ENV JAVA_OPTS="-Xms256m -Xmx512m"
 ENTRYPOINT ["sh", "-c", "java -jar app.jar"]
+
+# extrqa comment
